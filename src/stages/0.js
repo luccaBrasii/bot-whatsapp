@@ -9,8 +9,7 @@ export const initialStage = {
     const venombot = await VenomBot.getInstance()
 
     const message = `
-      👋 Olá, como vai?
-      Eu sou Carlos, o *assistente virtual* da ${venombot.getSessionName}.
+      👋 Olá, To testando um chatbot, se por acaso essa mensagem chegar em vc é porque bugou.. só ignora kkk ${venombot.getSessionName}.
       *Posso te ajudar?* 🙋‍♂️
       -----------------------------------
       1️⃣ - FAZER PEDIDO
